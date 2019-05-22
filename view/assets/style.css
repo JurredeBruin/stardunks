@@ -1,0 +1,40 @@
+table, td, th {
+    border: 1px solid black;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.btncreate{
+    text-decoration: none;
+    color: white;
+    background-color: #018cfe;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.search {
+    margin-bottom: 20px;
+}
+.fa-times::before,.fa-pen::before,.fa-book-open::before {
+    padding-right:5px;
+}
+
+.btncreate:hover{
+    background-color:blue;
+}
+.homebtn{
+    text-decoration:none;
+    color:black;
+}
+.creatinghead {
+    display: block;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.searchbar{
+    float:left;
+    width: 50%;
+}
+.return{
+    float:left;
+    width:100%;
+}
