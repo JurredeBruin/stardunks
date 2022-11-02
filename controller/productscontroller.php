@@ -29,14 +29,6 @@ class ProductsController {
                 case 'search':
                 $this->collectSearchProduct();
                 break;
-                // case 'readPage':
-                // $item_per_page=4;
-                // $position=(($_REQUEST['p']-1)* $item_per_page);
-                // $sql="SELECT * FROM Products LIMIT $position,$item_per_page";
-                // $result=$datahandler->readData($sql);
-                // $this->collectPages();
-                // include('../views/viewproductslevel2.php');
-                // break;
 				default:
                 $this->collectReadAllProducts();
 				break;
